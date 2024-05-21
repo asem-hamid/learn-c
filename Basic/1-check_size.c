@@ -15,9 +15,5 @@ printf("%d\n",sizeof(char));
 
 printf("%d\n",sizeof(struct student));
 
-
-/* In your device size of int is 4  it can hold 
-   number -2147483648 to 2147483628 */
-
 return 0 ;
 }
