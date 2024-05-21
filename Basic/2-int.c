@@ -3,6 +3,15 @@
 
 int main (){
 
+int x ;
+int y = 6 ;
+
+x = 5
+
+printf("%d\n",x);
+printf("%d\n",y);
+
+
 printf("%d\n",sizeof(int));
 
 printf("%d\n",sizeof(short int));
