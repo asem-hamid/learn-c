@@ -6,7 +6,7 @@ int main (){
 int x ;
 int y = 6 ;
 
-x = 5
+x = 5 ;
 
 printf("%d\n",x);
 printf("%d\n",y);
