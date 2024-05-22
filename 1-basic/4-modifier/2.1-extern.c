@@ -4,7 +4,7 @@
 // extern is short name for external.
 // Used when a particular file needs to access a variable from another file.
 
-extern int myExternvar ;
+extern int myExternvar ; // you can find this variable in 2.2-extern,c file
 
 int main() {
 
