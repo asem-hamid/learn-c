@@ -49,3 +49,20 @@ int main() {
   return 0 ;
 
 }
+
+/*
+﻿scanf  -
+
+Accept character, string and numeric data from the user using standard input - Keyboard.
+
+Scanf also use format specifiers like printf.
+For example: %d to accept input of integer type. %c to accept input of character type
+%s to accept a string
+and so on...
+
+
+scanf("%d",&age2); // we have to use ' & ' before variable
+
+*/
+
+
