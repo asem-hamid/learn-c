@@ -158,3 +158,29 @@ output : f right shift by 1 is 1
 ![image](https://github.com/asem-hamid/learn-c/assets/155321064/dc828da5-caa7-4c5c-93c8-7cdb8b43122e)
 
 ![image](https://github.com/asem-hamid/learn-c/assets/155321064/40c905e9-3936-4449-bfe6-99325d499c2d)
+
+# DIFFERENCE BETWEEN BITWISE AND LOGICAL OPERATORS
+
+```c
+#include <stdio.h>
+
+int main(){
+
+char x = 1, y = 2; //x = 1(0000 0001), y = 2(0000 0010)
+
+if(x&y) //1&2 = 0(0000 0000)
+
+printf("Result of x&y is 1");
+
+if(x&&y) //1&&2 = TRUE && TRUE = TRUE = 1
+
+printf("Result of x&&y is 1");
+
+return 0;
+}
+```
+
+```
+output : Result of x&&y is 1  
+
+```
