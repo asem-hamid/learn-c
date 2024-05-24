@@ -4,12 +4,16 @@
 
 ## There are many types of bitwise operator
 
+```
+
 1. & - AND
-1. | - OR
-1. ^ - XOR
-1. ~ - NOT
-1. << - left shift
-1. >> - right shift
+2. | - OR
+3. ^ - XOR
+4. ~ - NOT
+5. << - left shift
+6. >> - right shift
+
+```
 
 ## & - AND
 
