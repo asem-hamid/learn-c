@@ -88,3 +88,25 @@ return 0;
 output : a XOR b is 10
 
 ```
+
+## ~  - NOT
+
+![image](https://github.com/asem-hamid/learn-c/assets/155321064/11768e83-ee26-459b-b17e-26407dcce2b1)
+
+```c
+#include <stdio.h>
+
+int main(){
+
+ int d =   7 ;
+ printf("d NOT is %d\n", ~d); // -8
+
+return 0;
+}
+```
+
+```
+
+output : d NOT is -8
+
+```
