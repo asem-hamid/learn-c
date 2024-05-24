@@ -62,3 +62,29 @@ return 0;
 output : a OR b is 14
 
 ```
+
+## ^ - XOR
+
+If both bits are 1 or 0 , the output will be 0
+
+![image](https://github.com/asem-hamid/learn-c/assets/155321064/d0f6a857-379f-4c39-a561-a6192db4359e)
+
+
+
+```c
+#include <stdio.h>
+
+int main(){
+
+ c =  a ^ b ;
+ printf("a XOR b is %d\n", c); // 10
+
+return 0;
+}
+```
+
+```
+
+output : a XOR b is 10
+
+```
