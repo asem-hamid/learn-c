@@ -36,3 +36,29 @@ return 0;
 output : a AND b is 4
 
 ```
+
+## |  - OR
+
+![image](https://github.com/asem-hamid/learn-c/assets/155321064/330bb0e8-ded2-49c3-8b44-969289c52c2e)
+
+```c
+#include <stdio.h>
+
+int main(){
+
+ int a = 6;   // 6 = 0000 0110
+ int b = 12; // 12 = 0000 1100
+ int c ;
+ 
+ c =  a | b ;
+ printf("a OR b is %d\n", c); // 14
+
+return 0;
+}
+```
+
+```
+
+output : a OR b is 14
+
+```
