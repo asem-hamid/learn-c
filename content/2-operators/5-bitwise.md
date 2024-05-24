@@ -110,3 +110,51 @@ return 0;
 output : d NOT is -8
 
 ```
+
+## << - left shift
+
+```c
+#include <stdio.h>
+
+int main(){
+
+ int e = 3;
+ printf("e left shift by 1 is %d\n", e<<1); // 6
+
+return 0;
+}
+```
+
+```
+
+output : e left shift by 1 is 6
+
+```
+
+![image](https://github.com/asem-hamid/learn-c/assets/155321064/7b6ac3aa-6d39-45ab-9611-d22c1130a3e1)
+
+![image](https://github.com/asem-hamid/learn-c/assets/155321064/77250653-fc27-46c9-a4f1-9ab82160640d)
+
+## >> - right shift
+
+```c
+#include <stdio.h>
+
+int main(){
+
+ int f = 3;
+ printf("f right shift by 1 is %d\n", f>>1); // 1
+
+return 0;
+}
+```
+
+```
+
+output : f right shift by 1 is 1
+
+```
+
+![image](https://github.com/asem-hamid/learn-c/assets/155321064/dc828da5-caa7-4c5c-93c8-7cdb8b43122e)
+
+![image](https://github.com/asem-hamid/learn-c/assets/155321064/40c905e9-3936-4449-bfe6-99325d499c2d)
