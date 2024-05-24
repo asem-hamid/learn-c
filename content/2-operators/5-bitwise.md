@@ -1,6 +1,6 @@
 # Bitwise Operator
 
-## Bitwise operator use to play with binary numbers
+### Bitwise operator use to play with binary numbers
 
 ## There are many types of bitwise operator
 
