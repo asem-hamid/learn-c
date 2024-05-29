@@ -30,3 +30,21 @@ else{
 
 return 0;
 }
+
+void printhello(){
+
+    printf("Hello\n");
+
+}
+
+void printbonjour(){
+
+    printf("Bonjour\n");
+
+}
+
+void printgoodbye(){
+
+    printf("Goodbye\n");
+
+}
