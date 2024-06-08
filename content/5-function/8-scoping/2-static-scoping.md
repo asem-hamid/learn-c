@@ -15,3 +15,6 @@
 ### static scoping means variable value will 1st search in same code block , if fails then search outer block .
 
 In the exmple fun2 don't have any defination of a variable so it search the outer block and find global a = 5
+
+
+Reference : https://youtu.be/DeGfInd5BPY?si=bZ6ooBbqw72HSwqk
