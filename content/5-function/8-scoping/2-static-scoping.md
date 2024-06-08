@@ -14,7 +14,7 @@
 
 ### Static scoping means the variable value will be searched first in the same code block, and if that fails, it will search the outer block.
 
-In that  example, fun2 has no definition of a variable a, so it searches the outer block and finds the global int  a = 5.
+In that  example, fun2 has no definition of  variable a, so it searches the outer block and finds the global int  a = 5.
 
 
 Reference : https://youtu.be/DeGfInd5BPY?si=bZ6ooBbqw72HSwqk
