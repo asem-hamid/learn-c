@@ -12,9 +12,9 @@
 ![image](https://github.com/asem-hamid/learn-c/assets/155321064/50a7bafe-27f1-4f70-8fc1-5335ae771027)
 
 
-### static scoping means variable value will 1st search in same code block , if fails then search outer block .
+### Static scoping means the variable value will be searched first in the same code block, and if that fails, it will search the outer block.
 
-In the exmple fun2 don't have any defination of a variable so it search the outer block and find global a = 5
+In that  example, fun2 has no definition of a variable a, so it searches the outer block and finds the global int  a = 5.
 
 
 Reference : https://youtu.be/DeGfInd5BPY?si=bZ6ooBbqw72HSwqk
