@@ -1,6 +1,6 @@
 # Dynamic Scoping
 
-<!--- C Do not use dynamic scoping. Here we will use examples as theoretical -->
+<!--- C do not use dynamic scoping. Here we will use examples as theoretical -->
 
 1)
 ![image](https://github.com/asem-hamid/learn-c/assets/155321064/b05123be-d1f6-4c4d-b364-2fcedfe3ea74)
@@ -17,3 +17,6 @@ In that  example, fun2 has no definition of  variable a, so it searches the call
 so it searches the calling  function of fun1  which is main , and it finds the local variable int a = 10 .
 
 Reference : https://youtu.be/-7Hz3iriV6w?si=D02pIQuCaM7EL5h-
+
+
+# Remember C do not use dynamic scoping. Here we  use examples as theoretical . 
