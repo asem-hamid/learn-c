@@ -4,7 +4,11 @@ int nsum(int n);
 
 int main(){
 
-printf("sum of n number is %d\n", nsum(5));
+    int s;
+    printf("How many first sum of natural numbers do you want to calculate?\n");
+    scanf("%d",&s);
+
+    printf("%d\n",sum(s));
 
 return 0;
 }
