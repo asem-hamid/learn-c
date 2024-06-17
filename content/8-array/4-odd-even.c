@@ -1,3 +1,5 @@
+// Find odd and even number
+
 #include <stdio.h>
 
 void how_many_odd (int Oarr[] ,int *oddnum,int *evennum);
