@@ -35,10 +35,21 @@ printf("%d\n",Marr[2][2]); //12
 
 
 
-// 2D array elements can be printed using two nested for loops.
+// 2D array elements can be scaned and printed using two nested for loops.
 
 int arr2d[2][3] = {{1, 2, 3},
                   {4, 5, 6}};
+
+
+    for(int i=0; i<2; i++){
+
+        for(int j=0; j<3; j++){
+
+          scanf("%d ", &arr2d[i][j]);
+                 
+        } 
+         
+    }
 
 
     for(int i=0; i<2; i++){
@@ -51,7 +62,7 @@ int arr2d[2][3] = {{1, 2, 3},
        printf("\n");
     }
 
-
+     
 // 3D Array
 
 int arr3d[2][3][3] = {{{3,9,7},{4,2,1},{6,1,5}},
