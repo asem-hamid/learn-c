@@ -56,5 +56,28 @@ int arr3[] = {[0] = 46, [15] = 13, [9] = 28,[49] = 86};
 // it means
 // array length is 50 (largest index + 1)
 
+
+// Fibonacci number
+int N;
+printf("Enter the value of N (N > 2): ");
+scanf("%d", &N);
+
+int fib[N];
+
+fib[0] = 0;
+fib[1] = 1;
+
+printf("%d\t",fib[0]);
+printf("%d\t",fib[1]);
+
+for(int i = 2;i < N;i++){
+
+    fib[i] = fib[i - 1] + fib[i - 2]; 
+    
+
+    printf("%d\t",fib[i]);
+}
+printf("\n");
+
     return 0;
 }
