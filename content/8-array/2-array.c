@@ -92,5 +92,12 @@ int numofarr = sizeof(a) / sizeof(a[0]);
 printf("There are %d element in this array",numofarr);
 
 
+// if you add const keyword infront of array ,then we can not change value in that array 
+
+
+const int conarr[5] = {5,9,37,28,19} ;
+
+conarr[2] = 56;  // it will produce error 
+
     return 0;
 }
