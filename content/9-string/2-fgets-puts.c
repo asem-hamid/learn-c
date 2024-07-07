@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+void printnamelength(char namelength[]);
 
 int main() {
 
@@ -29,5 +29,21 @@ int main() {
 }
 
 
+void printnamelength(char namelength[]){
+     
+     int lengthsize = 0;
 
+     for(int i = 0; namelength[i] != '\0'; i++){  
+
+        if(namelength[i] == ' ' || namelength[i] == '\n') {
+
+            continue;
+        }
+        lengthsize++;
+
+     }
+     
+     printf("Name length is : %d\n", lengthsize);
+
+}   
 
