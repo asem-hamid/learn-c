@@ -28,6 +28,14 @@ int main() {
   
     printf("%s\n", "My name is Asem.\n""I am from Dhaka,Bangladesh\n");
 
+
+    char friend[] = "Mahim";
+    printf("%s\n", friend);
+
+    friend[0] = 'F';
+    printf("%s\n", friend);
+
+
 // Clear input buffer
 while (fgetchar() != '\n');
 
