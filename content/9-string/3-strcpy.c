@@ -6,6 +6,7 @@
 
 int main() {
 
+  
   //  strcpy(newstr , oldstr) - copy old string to new string 
 
 
@@ -23,7 +24,7 @@ int main() {
       puts(old);
 
 
-  //   remember new string array size must be bigger or equal to old string array
+      //   remember new string array size must be bigger or equal to old string array
 
       char new2[10] = "Asem";
       char old2[]  = "rockandroll";
@@ -35,6 +36,15 @@ int main() {
 
       puts(new2);
       puts(old2);
+
+
+
+      char str1[10] = "Hello"; 
+      char str2[10];
+      char str3[10];
+      
+      strcpy(str3, strcpy(str2, str1)); 
+      printf("%s %s", str2, str3);
   
   
   return 0;
