@@ -15,7 +15,7 @@ struct student {   // here struct student is data type
 
 int main() {
 
-    struct student s1;
+    struct student s1;  // here struct student is data type and s1 is the variable name
 
     s1.roll = 124109;
     s1.cgpa = 3.40;
