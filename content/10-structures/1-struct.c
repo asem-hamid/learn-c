@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct student {
+struct student {   // here struct student is data type
 
   int roll ;
   float cgpa;
