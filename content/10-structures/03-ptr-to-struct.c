@@ -22,12 +22,20 @@ int main() {
     printf("cgpa is %f\n",(*ptr).cgpa);
     printf("name is %s\n",(*ptr).name);
 
-
+// Arrow operator
+    
+    printf("student info by arrow opertor\n");
+    printf("roll is %d\n",ptr->roll);  // (*ptr).roll) is same to ptr->roll
+    printf("cgpa is %f\n",ptr->cgpa);
+    printf("name is %s\n",ptr->name);
 
 
 
 return 0;
 }
+
+
+
 
 
 
