@@ -5,7 +5,7 @@ struct student{
 
   char name[100];
   int  roll;
-  int  cgpa;
+  float  cgpa;
 };
 
 int main() {
