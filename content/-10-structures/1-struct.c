@@ -51,6 +51,7 @@ int main() {
     printf("cgpa is %f\n",s3.cgpa);
     printf("name is %s\n",s3.name);
 
+    // we can also initialize in a single line
 
     struct student s4 ={124130 ,3.36 , "rahat"};
 
