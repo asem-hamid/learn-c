@@ -8,6 +8,9 @@ struct student {
   char name[100];
 };
 
+// Here memory will be allocated continuously. For example, if the memory address of 'roll' is 2000-2003, 
+// then 'cgpa' will be at 2004-2007, and 'name' will be from 2008 to 2117.
+
 
 
 int main() {
