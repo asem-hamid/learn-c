@@ -7,13 +7,12 @@ Additionally, contributions from the community are highly encouraged to enhance 
 
 ## Table of Contents
 
-  - Introduction
-  - Features
-  - Getting Started
-  - Usage
-  - Chapter List
-  - Contributing
-  - License
+  - [Introduction](https://github.com/asem-hamid/learn-c/blob/15b3140dceaafcb3e0ff7266da757b6db84419fd/README.md?plain=1#L19)
+  - [Features](https://github.com/asem-hamid/learn-c/blob/15b3140dceaafcb3e0ff7266da757b6db84419fd/README.md?plain=1#L31)
+  - [Getting Started](https://github.com/asem-hamid/learn-c/blob/15b3140dceaafcb3e0ff7266da757b6db84419fd/README.md?plain=1#L39)
+  - [Usage](https://github.com/asem-hamid/learn-c/blob/15b3140dceaafcb3e0ff7266da757b6db84419fd/README.md?plain=1#L64)
+  - [Chapter List](https://github.com/asem-hamid/learn-c/blob/15b3140dceaafcb3e0ff7266da757b6db84419fd/README.md?plain=1#L71)
+  - [Contributing](https://github.com/asem-hamid/learn-c/blob/15b3140dceaafcb3e0ff7266da757b6db84419fd/README.md?plain=1#L100)
 
 
 ## Introduction 
