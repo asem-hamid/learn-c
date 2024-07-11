@@ -37,6 +37,9 @@ fscanf(fptr, "%d", &num);
 printf("NUM is %d\n",num);
 
 
+fclose(fptr);
+
+
 return 0;
 }
 
