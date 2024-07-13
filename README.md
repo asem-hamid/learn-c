@@ -47,6 +47,8 @@ To get started with the code and content in this repository, follow these steps:
 git clone https://github.com/asem-hamid/learn-c.git
 
 cd learn-c
+
+cd content
 ```
 
 3. **Explore the Code:** Browse through the folders and files to find tutorials, examples, and projects.
