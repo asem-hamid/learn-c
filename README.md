@@ -1,5 +1,9 @@
 # Learn C
 
+![learncbanner](https://github.com/user-attachments/assets/c8fa9c42-e67c-4918-85bc-0182e3fa88cd)
+
+
+
 Welcome to the Learn C repository! This repository is designed to help beginners learn 
 C programming through code examples, projects, and detailed explanations. 
 Additionally, contributions from the community are highly encouraged to enhance and expand the content.
@@ -47,6 +51,8 @@ To get started with the code and content in this repository, follow these steps:
 git clone https://github.com/asem-hamid/learn-c.git
 
 cd learn-c
+
+cd content
 ```
 
 3. **Explore the Code:** Browse through the folders and files to find tutorials, examples, and projects.
