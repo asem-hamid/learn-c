@@ -99,7 +99,9 @@ gcc -o filename.c -o filename
 
 - [extra:](https://github.com/asem-hamid/learn-c/tree/main/content/extra) Additional topics and advanced concepts.
 
-- Projects:
+### Projects :
+
+- [Snake and Ladder Game](https://github.com/asem-hamid/learn-c/blob/main/projects/snake-and-ladder.md)
 
 
 ## Contributing
