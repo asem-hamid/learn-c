@@ -6,7 +6,7 @@ Contributions are welcome! If you have learned something new and want to share, 
 2. **Clone Your Fork**: Clone your forked repository to your local machine.
 
    ```sh
-    git clone https://github.com/asem-hamid/learn-c.git
+    git clone https://github.com/yourusername/learn-c.git
 
     cd learn-c
    ```
