@@ -60,7 +60,7 @@ cd content
 4. **Run the Code:** Compile and run the examples using a C compiler 
 
 ```sh
-gcc -o filename.c -o filename
+gcc filename.c -o filename
 
 ./filename
 ```
