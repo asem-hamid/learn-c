@@ -187,4 +187,4 @@ int main() {
            }
 
   ```
-  for understanding i take j and x
+  for understanding I use j and x
