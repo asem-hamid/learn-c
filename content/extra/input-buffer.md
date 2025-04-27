@@ -135,3 +135,5 @@ Clearing the input buffer is a common practice in C programming,
 especially when dealing with mixed input types. This technique ensures that your 
 programs handle user input correctly and robustly, avoiding potential bugs and 
 unexpected behaviors related to leftover characters in the input buffer.
+
+> Always make sure to clear the input buffer after using `scanf()` if you plan to use `scanf("%c")`, `getchar()`, `gets()`, or `fgets()` afterward.
