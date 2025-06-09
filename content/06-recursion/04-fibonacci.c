@@ -1,31 +1,25 @@
-# include <stdio.h>
 
-int fibonacci(int fib);
+#include <stdio.h>
 
-int main(){
-
-    int fib;
-    printf("which term of fibonacci sequence do you want?\n");
-    scanf("%d",&fib);
-
-    printf("The %dth Fibonacci number is: %d\n", fib, fibonacci(fib));
-
-return 0;
+int fibonacci(int n) {
+    if(n == 0)
+        return 0;
+    else if(n == 1)
+        return 1;
+    else
+        return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-int fibonacci(int fib){
-    if(fib == 0){
-        return 0;
-    }
-    
-    if(fib == 1){
-        return 1;
-    }
-    
-    int fibNm2 = fibonacci(fib - 2);
-    int fibNm1 = fibonacci(fib - 1);
+int main() {
+    int n;
 
-    int fibN = fibNm2 + fibNm1;
+    printf("Enter the number of Fibonacci terms to display: ");
+    scanf("%d", &n);
 
-    return fibN;
+    printf("First %d Fibonacci numbers:\n", n);
+    for(int i = 0; i < n; i++) {
+        printf("%d ", fibonacci(i));
+    }
+
+    return 0;
 }
